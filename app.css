@@ -1,0 +1,220 @@
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100%;
+      background-color: black;
+    }
+
+.section1{
+    width: 80%;
+    height: 100vh;
+    background-color: #e3f8e4;
+    background-size: cover;
+  
+}
+
+.section2{
+    height: 100vh;
+    width: 20%;
+    background-color: #062419 ;
+    border: 2px solid black ;
+    position: fixed;
+    right: 0;
+   
+  }
+   i {
+      color: aliceblue;
+      font-size: 50px;
+    }
+
+/* --------------Section 1 Content-------------------*/
+
+
+header {
+      background-color:#062419; 
+      color: rgb(255, 253, 253);
+      
+      text-align: center;
+      display :flex;
+      height:10%;
+      width: 100%;
+     align-items: center;
+     justify-content: space-between;
+   
+
+    }
+.hide{
+  display:none;
+}
+.slogan{
+   font-weight: 600;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   font-size: 1.1rem;
+   padding: 20px;
+ 
+}
+.slogan h1,p{
+    margin: 0;
+   padding: 0;
+}
+
+.logo{
+        height: 100%;
+        width: 300px;
+        background-image: url(image/Waste_Management_logo.svg);
+        background-color: 	#062419;
+         background-position: center;
+         background-repeat: no-repeat; 
+}
+.info_collection{
+  height: 2rem;
+  width: 100%;
+  background-color: #227e25;
+  display: flex;
+  justify-content:flex-end;
+  font-size: 20px;
+
+  
+
+}
+.login_btn,.signup_btn{
+  height: 50px;
+  width: 100px;
+  margin: 0 5px;
+  background-color: #8fd400;
+  border-radius: 0 0 30px 30px ;
+  border: 0;
+  font-size: 20px;
+  font-family: cursive;
+
+ 
+}
+.login_btn:hover,.signup_btn:hover{
+
+  height: 52px;
+  width: 102px;
+  background-color: #8fd400;
+ 
+  box-shadow: 10px 10px 100px rgb(174, 255, 0);
+ 
+
+
+ 
+}
+.info_collection button{
+  height: 50px;
+  width: 100px;
+  margin: 0 5px;
+  background-color: #8fd400;
+  border-radius: 0 0 30px 30px ;
+  border: 0;
+  font-size: 20px;
+  font-family: cursive;
+
+}
+
+
+.main_homepg_image{
+      height: 70%;
+      width: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: end;
+      background-image: url(image/Gemini_Generated_Image_oee5dfoee5dfoee5.png);
+      background-position: center center;
+      background-size: cover;
+      font-size: 15px;
+      color: white;
+      font-family: cursive;
+   
+}
+.main_homepg_image h1{
+      text-shadow: 2px 3px 4px black;
+      font-family: cursive;
+        font-size: 50px;
+}
+.our_mission{
+  padding-right: 30px;
+}
+
+.loginbox{
+  position: relative;
+  
+}
+/* ---------------SECTION 2 Content-----------------------  */
+
+
+   
+.menu{
+  height: 60px;
+  width: 100%;
+  background-color: #a7e42c;
+  border-radius: 30px;
+  color:#e3f8e4;
+  text-shadow: #227e25 2px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.module {
+      background-color: #66bb6a; /* light green */
+      border-radius: 30px;
+      margin-bottom: 30px;
+      position: relative;
+      z-index:2;
+     
+    }
+  
+    .module a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+      font-size: 17px;
+    }
+
+    .module a:hover {
+      background-color: #227e25;
+      border-radius: 30px;
+      font-size:20px ;
+      font-weight: 400;
+    }
+    footer{
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   
+    }
+   
+  
+    .social_media{
+    height: 50px;
+    width:80% ;
+    border-radius: 0;
+    background-color: #062419;
+    display: flex;
+    justify-content: space-around;
+    
+    
+  }
+   .social_media i:hover{
+
+     height: 50px;
+  
+    border-radius: 0;
+    background-color: #062419;
+    display: flex;
+    transform:scale(1.5,1.5);
+    text-decoration: none;
+    }
+    .social_media a{
+        text-decoration: none;
+    }
+
+/*----------login and signin -----------------*/
+
